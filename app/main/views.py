@@ -1,7 +1,7 @@
 from flask import render_template,request,redirect,url_for
 from . import main
 from ..requests import get_sources,get_articles
-from ..models import sources
+from ..models import Sources
 
 # Views
 @main.route('/')
@@ -24,6 +24,6 @@ def articles(id):
 	view articles page
 	'''
 	articles = get_articles(id)
-	title = f'NH | {id}'
+	title = f' | {id}'
 
 	return render_template('articles.html',title= title,articles = articles)
