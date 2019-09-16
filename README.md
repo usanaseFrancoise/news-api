@@ -10,8 +10,7 @@ will then redirect you to the news article's web page.
 * See various news Sources and select the ones they prefer
 * See all news Sources from the Source they selected
 * click on an article and read it fully from news Source
-
-<img href="app/static/Screenshot from 2019-09-16 09-31-24.png">
+<img src="/app/static/Screenshot from 2019-09-16 09-31-24.png">
 
 ## Technology Used
  * Python Version 3.6
